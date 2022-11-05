@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-tutorial"
+version = "0.1.0"
+description = "official tutorial for learning django"
+authors = ["Adnene_wsl <adnen.guessoum@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
